@@ -1,0 +1,237 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.hidden {
+  display: none; }
+
+body {
+  font-family: Roboto; }
+
+h1, h2, h3, h4 {
+  font-family: Roboto sans-serif; }
+
+h1 {
+  margin-top: 30px;
+  color: #e5f55b;
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.2em;
+  color: #fff; }
+
+h3 {
+  font-size: 35px;
+  color: #bebdbd;
+  margin-bottom: 35px; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.header {
+  height: 150px;
+  background: #9b81f1;
+  text-align: center; }
+
+.header-desc {
+  margin-top: 20px;
+  color: #fffefe;
+  font-size: 1.25em; }
+
+.menu {
+  min-height: 50px;
+  background: #f3f3f3;
+  text-align: center;
+  color: #b00e0f; }
+
+.menu-wrap {
+  position: relative; }
+
+.menu-list {
+  display: inline-block;
+  z-index: 100; }
+
+.menu-list li {
+  float: left; }
+
+.toggle-menu, .menu-list a {
+  line-height: 50px;
+  font-size: 1.6em; }
+
+.menu-list a {
+  display: inline-block;
+  padding: 0 18px;
+  text-decoration: none; }
+
+.menu-list a:hover, .toggle-menu:hover {
+  background: #cebcbc;
+  color: #eee; }
+
+.toggle-menu {
+  display: none;
+  cursor: pointer; }
+
+.about {
+  position: relative; }
+
+.about h2 {
+  position: absolute;
+  left: 47%;
+  top: 15px; }
+
+.about-left, .about-right {
+  width: 50%;
+  height: 450px;
+  padding: 75px 25px 0;
+  float: left; }
+
+.about-left {
+  background: #854646;
+  text-align: center;
+  font-size: 20px;
+  color: #ede9e9; }
+
+.about-right {
+  background: #797878;
+  text-align: center;
+  font-size: 1.5em;
+  color: #ede9e9; }
+  .about-right li {
+    margin-bottom: 10px; }
+
+.portfolio {
+  background: #a995e9;
+  text-align: center;
+  padding-top: 25px; }
+
+.portfolio h2 {
+  margin-bottom: 55px; }
+
+.portfolio-item {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #dfc3c3; }
+
+.portfolio img {
+  width: 250px;
+  height: 200px;
+  margin-top: 15px; }
+
+.order {
+  background: #854646;
+  text-align: center;
+  padding-bottom: 55px; }
+  .order h2 {
+    margin: 15px 0 50px; }
+  .order p {
+    font-size: 25px;
+    color: #aeadad; }
+  .order a {
+    display: inline-block;
+    margin-top: 70px;
+    padding: 20px 30px;
+    background: #b8b4c4;
+    border-radius: 30px;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none; }
+  .order a:hover {
+    background: #9d97ae; }
+
+.contact {
+  padding-top: 20px;
+  background: #797878;
+  text-align: center;
+  padding-bottom: 20px; }
+  .contact h2 {
+    margin-bottom: 30px; }
+  .contact p {
+    font-size: 1.2em;
+    color: #fff; }
+
+.personal {
+  padding: 55px 0 30px;
+  background: #a995e9;
+  text-align: center; }
+  .personal h2 {
+    margin-bottom: 30px; }
+  .personal img {
+    width: 300px;
+    height: 250px; }
+
+.personal-item {
+  margin-bottom: 30px; }
+
+.order-form {
+  width: 30%;
+  padding: 30px 0;
+  margin: 0 auto;
+  background: #f3f3f3;
+  text-align: center; }
+
+.order-form-item {
+  margin-bottom: 20px; }
+
+.order-form-info label {
+  display: block; }
+
+@media screen and (max-width: 570px) {
+  .menu-list {
+    display: none;
+    position: absolute;
+    background: #f3f3f3;
+    width: 100%; }
+    .menu-list li {
+      float: none; }
+    .menu-list a {
+      width: 100%; }
+
+  .toggle-menu {
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */
